@@ -30,6 +30,12 @@ Traditional monitoring dashboards (AWS CloudWatch, Datadog, Grafana) are **too t
 - ⚙️ **Cloud-ready** (Firebase, AWS, GCP integrations coming soon)
 
 ---
+## 📚 Resources
+- [Flutter Docs](https://flutter.dev)  
+- [Node.js](https://nodejs.org)  
+- [Docker](https://docs.docker.com)  
+- [Firebase](https://firebase.google.com/docs)  
+- [OpenAI API Docs](https://platform.openai.com/docs/quickstart)  
 
 ## 🛠 Tech Stack
 - **Frontend (Mobile):** Flutter  
@@ -42,7 +48,7 @@ Traditional monitoring dashboards (AWS CloudWatch, Datadog, Grafana) are **too t
 ---
 
 ## 📲 Screenshots (MVP Preview)
-> *(Add images of your Flutter app once you run it!)*  
+ 
 
 - 📡 **Dashboard:** See live events in a feed  
 - 🤖 **Copilot Chat:** Ask “Why did latency spike?” and get an answer  
