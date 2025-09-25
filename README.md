@@ -36,6 +36,7 @@ Traditional monitoring dashboards (AWS CloudWatch, Datadog, Grafana) are **too t
 - [Docker](https://docs.docker.com)  
 - [Firebase](https://firebase.google.com/docs)  
 - [OpenAI API Docs](https://platform.openai.com/docs/quickstart)
+  
   ---
 
 ## 🛠 Tech Stack
