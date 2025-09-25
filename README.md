@@ -135,16 +135,6 @@ docker run -p 3000:3000 --env OPENAI_API_KEY=$OPENAI_API_KEY netra-backend
 - 🔮 Predictive ML anomaly detection  
 - 🔮 Team collaboration (Slack/Discord alerts)  
 
----
-
-## 📚 Resources
-
-- [Flutter Docs](https://flutter.dev)  
-- [Node.js](https://nodejs.org)  
-- [Docker](https://docs.docker.com)  
-- [Firebase](https://firebase.google.com/docs)  
-- [OpenAI API Docs](https://platform.openai.com/docs/quickstart)  
-
 
 
 
