@@ -131,12 +131,79 @@ docker run -p 3000:3000 --env OPENAI_API_KEY=$OPENAI_API_KEY netra-backend
 
 ## 🛣️ Roadmap
 
-- ✅ MVP (this repo)  
-- 🔜 Cloud integrations (Firebase, AWS CloudWatch, GCP Monitoring)  
-- 🔜 Graphs + dashboards in Flutter  
-- 🔮 Predictive ML anomaly detection  
-- 🔮 Team collaboration (Slack/Discord alerts)  
+### Phase 1 — MVP (Current)
+- ✅ Real-time telemetry feed (WebSocket)
+- ✅ AI Explain button (with simulated response if no API key)
+- ✅ Flutter mobile app + Node.js backend
+- ✅ Basic README, docs, Dockerfile
 
+### Phase 2 — Core Features
+- 📊 Persistent storage (Firestore/Postgres)
+- 🔑 User authentication (Firebase Auth/JWT)
+- 🎨 Improved Flutter UI with charts (latency, bandwidth, packet loss)
+
+### Phase 3 — Cloud Integrations
+- ☁️ Connect AWS CloudWatch, GCP Monitoring, Firebase
+- 🔔 Push alerts via FCM
+- 🤝 Slack/Discord integration for team alerts
+
+### Phase 4 — AI & Optimization
+- 🤖 Smarter AI explanations (summaries, cost optimization tips)
+- ⚡ Token usage control (batching, summarization)
+- 🚦 Rate limiting & quotas for AI requests
+
+### Phase 5 — Predictive & Security
+- 📈 ML anomaly detection (latency spikes, outages)
+- 🛡️ Security insights (failed logins, suspicious IPs)
+- 🔒 AI guardrails for IAM & firewall configs
+
+### Phase 6 — Scale & Collaboration
+- 👥 Multi-tenant/team support
+- 📧 Scheduled AI-generated reports
+- 🛠️ Deployment on Cloud Run / Kubernetes for scale
+
+
+## 📂 Project Structure
+
+Netra/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── .gitattributes
+├── .github/
+│   └── workflows/ci.yml          # CI pipeline
+├── mobile/                       # Flutter app
+│   ├── pubspec.yaml
+│   └── lib/
+│       ├── main.dart
+│       ├── screens/
+│       │   ├── dashboard.dart
+│       │   ├── event_detail.dart
+│       │   └── ai_chat.dart
+│       ├── services/
+│       │   ├── api_service.dart
+│       │   └── ws_service.dart
+│       └── widgets/
+│           ├── telemetry_tile.dart
+│           └── chart_widget.dart
+├── backend/                      # Node.js backend
+│   ├── package.json
+│   ├── index.js
+│   ├── ai_service.js
+│   ├── controllers/
+│   │   ├── telemetryController.js
+│   │   └── explainController.js
+│   ├── services/
+│   │   ├── wsBroadcaster.js
+│   │   └── storageService.js
+│   ├── middleware/
+│   │   └── rateLimiter.js
+│   └── scripts/
+│       └── simulate_telemetry.py
+└── docs/
+    ├── architecture.md
+    ├── api.md
+    └── roadmap.md
 
 
 
